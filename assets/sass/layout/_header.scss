@@ -1,0 +1,67 @@
+nav {
+
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+
+
+        .morent {
+            display: flex;
+            align-items: center;
+
+            .sorch {
+                position: relative;
+
+                input {
+                    height: 44px;
+                    width: 492px;
+                    border-radius: 70px;
+
+                }
+
+                input::placeholder {
+                    padding-left: 60px;
+                }
+
+                .img1 {
+                    position: absolute;
+                    left: 15px;
+                    top: 13px;
+                }
+
+                .img2 {
+                    position: absolute;
+                    top: 13px;
+                    right: 15px;
+                }
+            }
+        }
+
+        .icone {
+            img{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            }
+            // .iconBox {
+            //     // width: 40px;
+            //     // height: 40px;
+            //     // border-radius: 50%;
+            //     // display: flex;
+            //     // justify-content: center;
+            //     // align-items: center;
+            //     // border: 1px solid black;
+
+            // }
+
+
+        }
+
+    }
+}

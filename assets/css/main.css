@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+nav div .morent {
+  display: flex;
+  align-items: center;
+}
+nav div .morent .sorch {
+  position: relative;
+}
+nav div .morent .sorch input {
+  height: 44px;
+  width: 492px;
+  border-radius: 70px;
+}
+nav div .morent .sorch input::placeholder {
+  padding-left: 60px;
+}
+nav div .morent .sorch .img1 {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+}
+nav div .morent .sorch .img2 {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+}
+nav div .icone img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}/*# sourceMappingURL=main.css.map */
